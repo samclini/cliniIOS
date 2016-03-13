@@ -1,7 +1,7 @@
 {
   "name": "@rajatsehgal/add-to-home-screen",
   "version": "0.0.2",
-  "description": "A react component that detects if the mobile web app is running in standalone mode or not and shows a banner at the bottom of the screen, prompting the user to add this app to the home screen.",
+  "description": "A React component that detects if the mobile web app is running in standalone mode or not and shows a banner at the bottom of the screen, prompting the user to add this app to the home screen.",
   "scripts": {
     "start": "http-server . -s",
     "build": "webpack -d",
@@ -18,8 +18,8 @@
     "web app"
   ],
   "author": "rajatsehgal <rajatsehgal1988@gmail.com> (rajatsehgal.github.io)",
-  "license": "ISC",
-  "homepage": "https://github.com/rajatsehgal/add-to-home-screen#readme",
+  "license": "MIT",
+  "homepage": "http://rajatsehgal.github.io/add-to-home-screen/",
   "dependencies": {
     "radium": "^0.16.6",
     "react": "^0.14.7",
