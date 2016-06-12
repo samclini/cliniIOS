@@ -11,10 +11,10 @@ npm install @rajatsehgal/add-to-home-screen --save
 
 ## Usage
 Import it
-```
+```js
 import AddToHomeScreen from '@rajatsehgal/add-to-home-screen/AddToHomeScreen';
 ```
 Render it
-```
+```js
 <AddToHomeScreen />
 ```

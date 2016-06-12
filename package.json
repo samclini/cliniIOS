@@ -1,6 +1,6 @@
 {
   "name": "@rajatsehgal/add-to-home-screen",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React component that detects if the mobile web app is running in standalone mode or not and shows a banner at the bottom of the screen, prompting the user to add this app to the home screen.",
   "scripts": {
     "start": "http-server . -s",
@@ -20,7 +20,7 @@
   "author": "rajatsehgal <rajatsehgal1988@gmail.com> (rajatsehgal.github.io)",
   "license": "MIT",
   "homepage": "http://rajatsehgal.github.io/add-to-home-screen/",
-  "dependencies": {
+  "peerDependencies": {
     "radium": "^0.16.6",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
