@@ -1,8 +1,8 @@
 # add-to-home-screen
-A web component that detects if the mobile web app is running in standalone mode or not and shows a banner at the bottom of the screen, prompting the user to add this app to the home screen.
+A web component that detects if the mobile web app is running in standalone mode or not and shows a banner at the bottom of the screen, prompting the user to add this app to the home screen of their iOS device.
 
 ## Live demo
-Open it on an iPhone: [Demo](http://rajatsehgal.github.io/add-to-home-screen/)
+Open it on an iOS device: [Demo](http://rajatsehgal.github.io/add-to-home-screen/)
 
 ## Usage
 ```html

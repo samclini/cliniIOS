@@ -82,7 +82,12 @@ export default class AddToHomeScreen extends HTMLElement {
   }
 
   connectedCallback() {
-    if (!navigator.standalone) {
+    const ua = window.navigator.userAgent;
+    const iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+    const webkit = !!ua.match(/WebKit/i);
+    const iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
+
+    if (iOSSafari && !navigator.standalone) {
       this.style.display = 'inline-block';
       this.shadowRoot.getElementById('close').addEventListener('click', this._closeClick);
     }
