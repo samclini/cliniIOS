@@ -11,6 +11,7 @@ template.innerHTML = `
   left: 50%;
   transform: translateX(-50%);
   color: #333;
+  font-family: '"Helvetica Neue", Helvetica, Arial, sans-serif';
 }
 
 :host([hidden]) {
