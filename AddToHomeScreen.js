@@ -25,6 +25,7 @@ template.innerHTML = `
   width: 280px;
   border: 1px solid #333;
   line-height: 30px;
+  font-family: 'Poppins', sans-serif;
 }
 
 #share {
