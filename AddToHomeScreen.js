@@ -6,64 +6,52 @@ template.innerHTML = `
 <style>
 :host {
   position: fixed;
-  left: 0;
-  right: 0;
   bottom: 69px;
-  margin: auto;
-  width: 300px; /* Modifier cette valeur en fonction de la taille de votre élément */
+  left: 50%;
+  transform: translateX(-50%);
   color: #333;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif; /* Changer la police */
+  border-radius: 10px; /* Ajouter des coins arrondis */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Ajouter une ombre portée */
+  transition: transform .3s ease-out; /* Ajouter une animation */
+  animation: slide-up .5s ease-out;
 }
 
 :host([hidden]) {
   display: none;
 }
 
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
 #install {
-  height: 100px;
-  padding: 10px;
+  padding: 20px;
   background: #F5F5F4;
-  width: 280px;
   border: 1px solid #333;
-  line-height: 30px;
-  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  font-size: 1rem; /* Ajuster la taille de la police */
 }
 
 #share {
   vertical-align: top;
-}
-
-#arrowOuter {
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #333;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-#arrowInner {
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #F5F5F4;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -19px;
+  margin-left: 5px;
 }
 
 #close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   width: 16px;
   height: 16px;
   padding: 5px;
   cursor: pointer;
+  transition: transform .3s ease-out;
+}
+
+#close:hover {
+  transform: rotate(90deg); /* Ajouter une animation au survol */
 }
 </style>
 <div id="install">
