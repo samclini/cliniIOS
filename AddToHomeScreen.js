@@ -5,7 +5,6 @@ const template = document.createElement('template');
 template.innerHTML = `
 <style>
 :host {
-  display: none;
   position: fixed;
   left: 0;
   right: 0;
