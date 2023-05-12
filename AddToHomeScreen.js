@@ -67,7 +67,7 @@ template.innerHTML = `
 </style>
 <div id="install">
   Installez l'appli iPhone. C'est super simple, cliquez sur cette icône
-  <img id="share" src="data:image/png;base64,${iOSShareBase64}"> puis cliquez sur "Sur l'écran d'accueil"
+  <img id="share" src="data:image/png;base64,${iOSShareBase64}"> en bas de votre écran puis cliquez sur "Sur l'écran d'accueil"
 </div>
 <div id="arrowOuter"></div>
 <div id="arrowInner"></div>
