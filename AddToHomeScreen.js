@@ -6,10 +6,12 @@ template.innerHTML = `
 <style>
 :host {
   display: none;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 69px;
+  margin: auto;
+  width: 300px; /* Modifier cette valeur en fonction de la taille de votre élément */
   color: #333;
   font-family: 'Poppins', sans-serif;
 }
