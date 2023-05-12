@@ -65,8 +65,8 @@ template.innerHTML = `
 }
 </style>
 <div id="install">
-  Install this web app on your iPhone for the best experience. It's easy, just tap
-  <img id="share" src="data:image/png;base64,${iOSShareBase64}"> and then "Add to Home Screen".
+  Installez l'appli iPhone. C'est super simple, cliquez sur cette icône
+  <img id="share" src="data:image/png;base64,${iOSShareBase64}"> puis cliquez sur "Sur l'écran d'accueil"
 </div>
 <div id="arrowOuter"></div>
 <div id="arrowInner"></div>
